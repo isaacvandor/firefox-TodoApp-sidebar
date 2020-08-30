@@ -3,7 +3,7 @@
     "manifest_version": 2,
     "name": "To-do Sidebar",
     "description": "Displays Microsoft To-do Web App in the sidebar.",
-    "homepage_url": "https://github.com/isaacvandor/firefox-msofttodo-sidebar",
+    "homepage_url": "https://github.com/isaacvandor/firefox-TodoApp-sidebar",
     "version": "1.0",
     "applications": {
         "gecko": {
