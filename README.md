@@ -1,11 +1,5 @@
-![logo](https://raw.githubusercontent.com/theoosborn/firefox-todoist-sidebar/master/icons/icon2_96.png)
-# Todoist Sidebar
-A Firefox WebExtension to display Todoist in the sidebar. 
+Opens Microsoft To-do web app in firefox sidebar
 
-<a href="https://addons.mozilla.org/en-US/firefox/addon/todoist_sidebar/">![downloadbutton](https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_2.png)</a>
+Shortcut to toggle extension is Alt+Shift+Z by default and is customizable through Firefox Add-Ons page.
 
-![screenshot](https://i.imgur.com/YesYbfS.png)
-
-This extension adds a new section to the Firefox sidebar which contains the Todoist web app. It allows you to add and edit tasks easily whilst browsing.
-
-Press Shift+Alt+I to open. This shortcut can be changed by going to Add-ons -> Todoist Sidebar -> Options.
+Forked from firefox-todoist-sidebar(https://github.com/theoosborn/firefox-todoist-sidebar)

@@ -1,9 +1,10 @@
 {
 
     "manifest_version": 2,
-    "name": "Todoist Sidebar",
-    "description": "Displays Todoist in the sidebar.",
-    "version": "1.12",
+    "name": "To-do Sidebar",
+    "description": "Displays Microsoft To-do Web App in the sidebar.",
+    "homepage_url": "https://github.com/isaacvandor/firefox-msofttodo-sidebar",
+    "version": "1.0",
     "applications": {
         "gecko": {
           "strict_min_version": "60.0"
@@ -16,25 +17,22 @@
     },
 
     "sidebar_action": {
-        "default_icon": {
-            "48": "icons/icon1_48.png",
-            "96": "icons/icon1_96.png"
-          },
-        "default_title": "Todoist",
+	"default_icon": "icons/todo-48.png",
+        "default_title": "Microsoft To Do",
         "default_panel": "sidebar/panel.html"
     },
 
     "icons": {
-        "48": "icons/icon2_48.png",
-        "96": "icons/icon2_96.png"
+        "48": "icons/todo-48.png",
+        "96": "icons/todo-96.png"
       },
 
     "commands": {
         "_execute_sidebar_action": {
             "suggested_key": {
-                "default": "Shift+Alt+I"
+                "default": "Shift+Alt+Z"
             },
-            "description": "Toggle the Todoist sidebar"
+            "description": "Toggle the sidebar window"
         }
     }
 }
